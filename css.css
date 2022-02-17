@@ -1,0 +1,97 @@
+.table{
+	margin: 0px 0px 0px 30px;
+	border: 1px solid;
+	table-layout: fixed;
+	margin-bottom: 20px;
+	font-family: inherit;
+	font-size: 1.3rem;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid;
+	text-align: left;
+}
+
+.th1{
+	width: 370px;
+}
+.th2{
+	width: 150px;
+}
+.th3{
+	width: 150px;
+}
+
+label{
+	margin: 0px 0px 20px 20px;
+	font-family: inherit;
+	font-size: 1.3rem;
+
+}
+
+div{
+	margin: 20px 0px 20px 0px;
+}
+
+input{
+	width:370px;
+	margin: 20px 0px 0px 50px;
+	height: calc(2.25rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-family: inherit;
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.in1{
+	width:179px;
+	margin: 0px 0px 0px 37px;
+}
+
+select{
+	width:179px;
+	margin: 0px 0px 0px 130px;
+	height: calc(2.25rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-family: inherit;
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button{
+	margin: 0px 0px 0px 190px;
+	font-family: inherit;
+	font-size: 1.3rem;
+	border-radius: 0.25rem;
+	background-color: #bdbdbd;
+}
+h2{
+	margin: 20px 0px 5px 30px;
+}
+
+form{
+	margin: 0px 0px 30px 30px;
+	border: 2px solid #bdbdbd;
+	border-radius: 0.55rem;
+	width: 800px;
+}
+}

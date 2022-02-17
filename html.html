@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ДЗ №9</title>
+		<link href="css.css" rel="stylesheet" type="text/css">
+		<script src="javascript.js"></script>
+	</head>
+	<body>
+		<h2> Форма добавления информации о студенте </h2>
+		<form outline=2>
+			<label for="studentName">Имя студента</label><input type="text" id="studentName" required="required">
+			<div>
+				<label for="studentSex">Пол</label>
+				<select id = "studentSex" required="required">
+					<option value="">Выберите пол</option>
+					<option>Мужской</option>
+					<option>Женский</option>
+				</select>
+			</div>
+			<label for="studentBirth">Дата рождения</label><input type="date" id="studentBirth" required="required" class = "in1">
+			<div><button type = "button" onclick = "addStudent()">Добавить</button></div>
+		</form>
+		<h2>Таблица студентов</h2>
+		<table class = "table" id = "tableOfStudents">
+			<thead>
+				<tr>
+					<th class = "th1">Имя</th>
+					<th class = "th2">Пол</th>
+					<th class = "th3">Дата рождения</th>
+					<th class = "th4">Возраст</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan = 4><font color = "white">_</td>
+				</tr>
+				<tr>
+					<td colspan = 3>Средний возраст студентов</td>
+					<td id = "averageAge"></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
